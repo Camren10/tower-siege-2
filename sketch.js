@@ -25,7 +25,7 @@ function setup() {
 
    block1 = new Block(600,320);
   block2 = new Block(570,320);
-  block3 = new Block(900,150);
+  block3 = new Block(900,170);
   block4 = new Block(540,320);
   block5 = new Block(510,320);
   block6 = new Block(630,320);
@@ -40,14 +40,14 @@ function setup() {
   block15 = new Block(570,260);
   block16 = new Block(630,260);
   block17 = new Block(600,230);
-  block18 = new Block(870,150);
-  block19 = new Block(840,150);
-  block20 = new Block(930,150);
-  block21 = new Block(960,150);
-  block22 = new Block(900,120);
-  block23 = new Block(870,120);
-  block24 = new Block(930,120);
-  block25 = new Block(900,90);
+  block18 = new Block(870,170);
+  block19 = new Block(840,170);
+  block20 = new Block(930,170);
+  block21 = new Block(960,170);
+  block22 = new Block(900,140);
+  block23 = new Block(870,140);
+  block24 = new Block(930,140);
+  block25 = new Block(900,110);
 
   polygon = new Polygon(200,200,50,50);
   sling = new Slingshot(polygon.body,{x:200,y:200});
