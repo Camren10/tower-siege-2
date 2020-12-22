@@ -14,6 +14,8 @@ class Block {
   }
 
   display() {
+    
+    if(this.body.speed<3){
       
       var angle = this.body.angle;
       var pos = this.body.position;
@@ -24,5 +26,8 @@ class Block {
       rectMode(CENTER);
       rect(0,0, this.width, this.height);
       pop();
+    } else{
+      World.remove(world,this.body);
+    }
   }
 }
