@@ -111,6 +111,8 @@ function mouseReleased(){
 
 function keyPressed() {
   if (keyCode === 32) {
+    Matter.Body.setPosition(polygon.body,{x:200,y:200});
     sling.attach(polygon.body);
+    gameState = "onSling";
   }
 }
